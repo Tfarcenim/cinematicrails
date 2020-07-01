@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "tfar.cinematicrails.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cinematicrails.refmap.json",
+  "mixins": [
+    "PlayerEntityMixin",
+    "AbstractMinecartEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
